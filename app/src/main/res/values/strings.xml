@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GraphQL Test</string>
+
+    <string name="graphql_input_fragment_label">Input Fragment</string>
+    <string name="graphql_output_fragment_label">Output Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="github_username">Github Username</string>
+</resources>

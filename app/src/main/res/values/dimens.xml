@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="username_input_width">144dp</dimen>
+    <dimen name="username_header_bottom_margin">20dp</dimen>
+</resources>

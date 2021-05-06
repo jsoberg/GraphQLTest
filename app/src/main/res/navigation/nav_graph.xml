@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/input_fragment">
+
+    <fragment
+        android:id="@+id/input_fragment"
+        android:name="com.soberg.graphqltest.GraphQLInputFragment"
+        android:label="@string/graphql_input_fragment_label"
+        tools:layout="@layout/input_fragment">
+
+        <action
+            android:id="@+id/action_input_fragment_to_output_fragment"
+            app:destination="@id/output_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/output_fragment"
+        android:name="com.soberg.graphqltest.GraphQLOutputFragment"
+        android:label="@string/graphql_output_fragment_label"
+        tools:layout="@layout/output_fragment">
+
+        <action
+            android:id="@+id/action_output_fragment_to_input_fragment"
+            app:destination="@id/input_fragment" />
+    </fragment>
+</navigation>
